@@ -1,5 +1,7 @@
-CREATE TABLE cars (
-    id INT NOT NULL PRIMARY KEY,
-    license_plate VARCHAR NOT NULL,
-    color VARCHAR NOT NULL
+create table users(
+    id INT(11) AUTO_INCREMENT PRIMARY KEY, 
+    username VARCHAR(100), 
+    email VARCHAR(100), 
+    password VARCHAR(100), 
+    register_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
