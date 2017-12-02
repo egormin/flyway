@@ -10,7 +10,7 @@ flyway.password=fly
 ```
 4) Create baseline with command: 
 ```
-fly -baselineVersion=1.0.0 baseline
+flyway -baselineVersion=1.0.0 baseline
 ```
 Will be created schema version file.
 
