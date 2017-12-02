@@ -13,9 +13,17 @@ flyway.password=fly
 fly -baselineVersion=1.0.0 baseline
 ```
 Will be created schema version file.
+
 5) Create migration files in sql folders with names V_1.0x__person.sql
+
 6) Apply changes with command
 ```
 flyway migrate
 ```
 All new versions will be applied. Versions applied before will be skipped
+
+
+To apply target version use command:
+```
+flyway -target=1.0.2 migrate
+```
