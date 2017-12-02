@@ -1,4 +1,4 @@
-create table XXX(
+create table XXX1(
     id INT(11) AUTO_INCREMENT PRIMARY KEY, 
     username VARCHAR(100), 
     email VARCHAR(100), 
